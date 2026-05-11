@@ -1,0 +1,78 @@
+{
+  "Email Address": "lcarlton@bu.edu",
+  "Name": "ball_squeeze_2025",
+  "Year[s] Collected": "2025",
+  "Main Modality": "fNIRS - HD / DOT",
+  "Auxiliary": [
+    "fNIRS",
+    "Accelerometer"
+  ],
+  "DatasetType": "raw",
+  "Coverage": [
+    "Whole head"
+  ],
+  "Density": "High density",
+  "AvgChannelDistances ": "19 and 33",
+  "ShortChannelCount": "0",
+  "EthicsApprovals": "Boston University IRB 4502",
+  "ReferencesAndLinks": "",
+  "Funding": "",
+  "paradigms": [
+    {
+      "Paradigm": [
+        "Motor Task"
+      ],
+      "Details Description": "Subjects performed a ball squeezing task where left and right hands were prompted in a pseudorandom order",
+      "Details Conditions": [
+        "Task",
+        "Motor",
+        "Left Hand",
+        "Right Hand"
+      ],
+      "Details Trial Duration (sec)": "5",
+      "Details Trials Per Block": "12",
+      "Details Block Duration (sec)": "360",
+      "Details Blocks Per Condition": "1",
+      "Details Blocks Per Run": "1",
+      "Details Runs Per Session": "3",
+      "Details ISI": "15-20 seconds",
+      "Details References": "",
+      "Details Other": "",
+      "Duration Per Session (min)": ""
+    },
+    {
+      "Paradigm": [
+        "Resting"
+      ],
+      "Details Description": "resting-state where subjects remained still with gaze focused on crosshairs on the screen",
+      "Details Conditions": [
+        "Rest"
+      ],
+      "Details Trial Duration (sec)": "",
+      "Details Trials Per Block": "",
+      "Details Block Duration (sec)": "",
+      "Details Blocks Per Condition": "",
+      "Details Blocks Per Run": "",
+      "Details Runs Per Session": "1",
+      "Details ISI": "",
+      "Details References": "",
+      "Details Other": "",
+      "Duration Per Session (min)": "360"
+    },
+    {
+      "Paradigm": "",
+      "Details Description": "",
+      "Details Conditions": "",
+      "Details Trial Duration (sec)": "",
+      "Details Trials Per Block": "",
+      "Details Block Duration (sec)": "",
+      "Details Blocks Per Condition": "",
+      "Details Blocks Per Run": "",
+      "Details Runs Per Session": "",
+      "Details ISI": "",
+      "Details References": "",
+      "Details Other": "",
+      "Duration Per Session (min)": ""
+    }
+  ]
+}
