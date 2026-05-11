@@ -24,12 +24,10 @@
         }
     },
     "ethnicity": {
-        "Description": "",
-        "Units": "N/A"
+        "Description": "Ethnicity of the participant"
     },
     "race": {
-        "Description": "",
-        "Units": "N/A"
+        "Description": "Race of participant"
     },
     "headcirc": {
         "Description": "Circumference of participant's head",
@@ -48,19 +46,15 @@
         "Units": "scale"
     },
     "skintone": {
-        "Description": "Skin tone of participant via visual inspection - Fitz-Patrick Scale",
-        "Units": "N/A"
+        "Description": "Skin tone of participant via visual inspection - Fitz-Patrick Scale"
     },
     "haircolor": {
-        "Description": "Hair color of participant",
-        "Units": "N/A"
+        "Description": "Hair color of participant"
     },
     "hairshape": {
-        "Description": "Hair type of participant",
-        "Units": "N/A"
+        "Description": "Hair type of participant"
     },
     "hairtexture": {
-        "Description": "Texture of individual hair strands",
-        "Units": "N/A"
+        "Description": "Texture of individual hair strands"
     }
 }
