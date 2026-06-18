@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ball_squeeze_Carlton_2025",
-  "description": "This dataset comprises high-density functional near-infrared spectroscopy (fNIRS) measurements acquired during a ball-squeeze motor task. The study focuses on optimizing surface-based image reconstruction techniques for high-density fNIRS to improve spatial localization of hemodynamic responses. Data were collected from multiple subjects performing controlled motor movements, providing a resource for validating advanced neuroimaging reconstruction algorithms.",
-  "methods_description": "High-density functional near-infrared spectroscopy (fNIRS) data were acquired during a ball-squeeze motor task. The dataset includes raw fNIRS measurements suitable for surface-based image reconstruction analysis.",
+  "description": "This dataset comprises high-density functional near-infrared spectroscopy (fNIRS) measurements acquired during a ball-squeeze motor task. The study focuses on optimizing surface-based image reconstruction techniques for high-density fNIRS neuroimaging, with data collected from multiple subjects performing controlled motor activities. The dataset supports methodological research in fNIRS signal processing and brain imaging reconstruction algorithms.",
+  "methods_description": "High-density functional near-infrared spectroscopy (fNIRS) data were collected during a ball-squeeze motor task. Data acquisition and processing followed BIDS standards (version 1.8.0) for neuroimaging datasets.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,16 +25,16 @@
       "term": "functional near-infrared spectroscopy"
     },
     {
-      "term": "motor task"
+      "term": "motor imagery"
     },
     {
       "term": "image reconstruction"
     },
     {
-      "term": "hemodynamics"
+      "term": "neuroimaging"
     },
     {
-      "term": "neuroimaging"
+      "term": "brain imaging"
     }
   ],
   "related_identifiers": [
