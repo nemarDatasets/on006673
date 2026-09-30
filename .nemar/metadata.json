@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ball_squeeze_Carlton_2025",
-  "description": "This dataset comprises high-density functional near-infrared spectroscopy (fNIRS) measurements acquired during a ball-squeeze motor task. The study focuses on optimizing surface-based image reconstruction techniques for high-density fNIRS neuroimaging, with data collected from multiple subjects performing controlled motor activities. The dataset supports methodological research in fNIRS signal processing and brain imaging reconstruction algorithms.",
+  "description": "A high-density functional near-infrared spectroscopy (fNIRS) dataset recorded during a ball-squeezing motor task at Boston University. The recordings were used to develop and optimize surface-based image reconstruction methods for high-density fNIRS. The dataset is mirrored on NEMAR from OpenNeuro (ds006673).",
   "methods_description": "High-density functional near-infrared spectroscopy (fNIRS) data were collected during a ball-squeeze motor task. Data acquisition and processing followed BIDS standards (version 1.8.0) for neuroimaging datasets.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -22,29 +22,26 @@
       "term": "fNIRS"
     },
     {
-      "term": "functional near-infrared spectroscopy"
-    },
-    {
-      "term": "motor imagery"
+      "term": "high-density diffuse optical tomography"
     },
     {
       "term": "image reconstruction"
     },
     {
-      "term": "neuroimaging"
+      "term": "motor task"
     },
     {
-      "term": "brain imaging"
+      "term": "ball squeezing"
+    },
+    {
+      "term": "Spectroscopy, Near-Infrared",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019265"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006673",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006673",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -57,16 +54,24 @@
       "identifier": "10.18112/openneuro.ds006673.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006673",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "National Institutes of Health",
-      "award_number": "U01-EB 029856"
+      "funder_name": "This project was supported by the National Institutes of Health (Grant Nos. U01-EB 029856 and UG3-EB 036035) and by the resources and facilities made available by Boston University."
     },
     {
       "funder_name": "National Institutes of Health",
-      "award_number": "UG3-EB 036035"
+      "award_number": "U01-EB029856"
+    },
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "UG3-EB036035"
     }
   ],
   "resource_type_general": "Dataset",
@@ -75,7 +80,7 @@
     "nirs"
   ],
   "sizes": [
-    "22.2 GB (1264 files)"
+    "20.65 GB (1264 files)"
   ],
   "formats": [
     ".bin",
